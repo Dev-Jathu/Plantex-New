@@ -1,11 +1,11 @@
- <!-- contact form start -->
- <div class="contactform" id="contactus">
+<!-- contact form start -->
+<div class="contactform" id="contactus">
     <div class="contactinfo">
         <div class="color">
             <h2>Contact Info</h2>
             <p>Fill The form and our team will Get to back ,<br>
                 To you within 24 Hours.</p>
-            <div class="icons">
+            <div class="iconss">
                 <i class="fa-solid fa-phone"><a href="">+94 245682794</a></i><br>
                 <i class="fa-regular fa-envelope"> <a href="">plantex05@gamail.com</a></p></i><br>
                 <i class="fa-solid fa-location-dot"><a href="">49,Chettikulam,Vavuniya</a></i>
@@ -24,3 +24,205 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63093.79259309366!2d80.44436334408775!3d8.751965622375431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afc150e0fc66c73%3A0x37b6b473c8b4d008!2sVavuniya!5e0!3m2!1sen!2slk!4v1707315340836!5m2!1sen!2slk" width="2100" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
+<!-- contact page end -->
+/* contact form :start */
+.contactform {
+    width: 100%;
+    height: 110vh;
+    padding-top: 50px;
+}
+
+.color {
+    background-color: #27ae60;
+    height: 600px;
+    padding-left: 100px;
+    padding-top: 100px;
+    box-shadow: 1rem 1rem 20px;
+
+}
+
+.userdetails {
+    background-color: whitesmoke;
+    padding-left: 50px;
+    padding-top: 50px;
+    box-shadow: 0.5rem 0.5rem 20px cornflowerblue;
+
+}
+
+.contactinfo {
+    display: grid;
+    grid-template-columns: 600px 1100px;
+    justify-content: center;
+
+}
+
+.contactinfo h2 {
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+.contactinfo p {
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.iconss i {
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.iconss a {
+    margin-left: 20px;
+    color: whitesmoke;
+
+}
+
+.box {
+    border-bottom: 1px solid;
+    background-color: transparent;
+    height: 70px;
+    padding: 22px;
+    /* font-size: 20px; */
+    font-size: 22px;
+    padding-top: 80px;
+}
+
+#Lasstname {
+    margin-left: 40px;
+}
+
+#email {
+    margin-left: 40px;
+
+}
+
+#textbox {
+    margin-top: 80px;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    height: 100px;
+    font-size: 22px;
+    padding: 22px;
+
+
+
+}
+
+.postcomment {
+    width: 200px;
+    height: 70px;
+    margin-top: -100px;
+    margin-left: 650px;
+    background-color: #27ae60;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.postcomment:hover {
+    text-transform: lowercase;
+    transition: 1.7s;
+    letter-spacing: 1px;
+    box-shadow: 1rem 1rem 40px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 20PX;
+}
+
+@media(max-width:600px) {
+    .contactform {
+        width: 100%;
+        height: 300vh;
+        padding-top: 50px;
+        margin-left: 8px;
+    }
+    .contactinfo {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .userdetails {
+
+        /* margin-top: 100px; */
+        width: 200px;
+        margin-left: 30px;
+
+    }    #Lasstname {
+        margin-left: 5px;
+    }
+    .color{
+        margin-left: 30px;
+        width: 200px;
+
+    }
+    .color h2{
+        margin-left: -70px;
+    }
+    .color p{
+        margin-left: -70px;
+
+    }
+    .iconss i {
+        margin-left: -70px;
+        font-size: 18px;
+
+    }
+    #email {
+        margin-left: 5px;
+    
+    }
+    #textbox {
+        margin-top: 80px;
+        border-bottom: 1px solid;
+        background-color: transparent;
+        height: 10px;
+        font-size: 22px;
+        padding: 22px;
+    
+    
+    
+    }
+    .box {
+        border-bottom: 1px solid;
+        width: 150px;
+        background-color: transparent;
+        height: 50px;
+        padding: 15px;
+        /* font-size: 20px; */
+        font-size: 22px;
+        padding-top: 80px;
+
+    }
+    #textbox {
+        margin-top: 80px;
+        border-bottom: 1px solid;
+        background-color: transparent;
+        height: 5px;
+        font-size: 22px;
+        padding: 22px;
+        width: 220px;
+    
+    
+    
+    }
+    .postcomment {
+        width: 200px;
+        height: 70px;
+        margin-top: -900px;
+        margin-left: 70px;
+        background-color: #27ae60;
+        font-size: 22px;
+        text-align: center;
+    }
+    .map {
+        display: flex;
+        justify-content: center;
+        margin-top: -1100px;
+        width: 90%;
+        /* margin-left: 20px; */
+    }
+}

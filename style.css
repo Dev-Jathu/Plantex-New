@@ -321,7 +321,7 @@ header .icons a {
         letter-spacing: 3px;
         line-height: 40px;
         text-align: justify;
-        margin-left: 80px;
+        margin-left: 70px;
         margin-top: 400px;
 
     }
@@ -331,7 +331,7 @@ header .icons a {
         margin-left: -300px;
         letter-spacing: 1px;
         line-height: 30px;
-        margin-left: 80px;
+        margin-left: 70px;
         margin-top: 50px;
 
     }
@@ -342,7 +342,7 @@ header .icons a {
 
     .image {
         margin-top: -980px;
-        margin-left: -45px;
+        margin-left: -55px;
     }
 
     #explore {
@@ -418,23 +418,23 @@ label {
     .aboutimage img {
         margin-top: 50px;
         height: 300px;
-        margin-left: -245px;
+        margin-left: -255px;
     }
 
     .Headin-about {
         margin-top: -250px;
-        margin-left: -11px;
+        margin-left: -20px;
 
     }
 
     .Headin-about .head1 {
-        font-size: 28px;
+        font-size: 25px;
         text-align: left;
         margin-left: -230px;
     }
 
     .paraabout {
-        font-size: 25px;
+        font-size: 22px;
         text-align: left;
         /* letter-spacing: 1px; */
         margin-left: -230px;
@@ -515,7 +515,7 @@ button:hover {
     justify-content: center;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    column-gap: 250px;
+    column-gap: 200px;
     row-gap: 80px;
 
 }
@@ -589,7 +589,7 @@ h4 {
         grid-template-columns: auto auto;
         column-gap: 30px;
         row-gap: 10px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
 
     .ourproducts img {
@@ -670,12 +670,11 @@ h4 {
     .qustion {
         display: grid;
         grid-template-columns: auto;
-        width: 80%;
+        width: 70%;
         row-gap: 50px;
         margin-top: 150px;
-        /* margin-top: 200px; */
         justify-content: center;
-        /* margin-left: 150px; */
+        
     }
 
     .content h1 {
@@ -691,7 +690,7 @@ h4 {
         font-size: 16px;
         /* text-align: left; */
         text-align: left;
-        margin-left: -150px;
+        margin-left: -100px;
         width: 310px;
         height: 30px;
         background-color: #edecec;
@@ -767,7 +766,7 @@ h4 {
     .teamsection {
         width: 80%;
         margin-top: -40px;
-        margin-left: 10px;
+        margin-left: 20px;
 
     }
 
@@ -791,7 +790,7 @@ h4 {
         grid-template-columns: 300px;
         gap: 50px;
         justify-content: center;
-        margin-left: -180px;
+        margin-left: -195px;
     }
 
     .clientreview {
@@ -807,7 +806,6 @@ h4 {
 
     }
 }
-
 /* contact form :start */
 .contactform {
     width: 100%;
@@ -820,7 +818,7 @@ h4 {
     height: 600px;
     padding-left: 100px;
     padding-top: 100px;
-    box-shadow: 1rem 1rem 20px;
+    box-shadow: 0.5rem 0.5rem 20px cornflowerblue;
 
 }
 
@@ -917,29 +915,47 @@ h4 {
 
 @media(max-width:600px) {
     .contactform {
-        width: 100%;
+        width: 90%;
         height: 300vh;
         padding-top: 50px;
         margin-left: 8px;
     }
     .contactinfo {
-        display: grid;
-        grid-template-rows:800px 350px;
-        justify-content: center;
-        row-gap: 800px;
+        display: flex;
+        flex-direction: column;
     
     }
 
     .userdetails {
 
-        margin-top: 100px;
-        width: 370px;
-        margin-left: 65px;
+        /* margin-top: 100px; */
+        width: 320px;
+        margin-left: 30px;
+        height: 650px;
 
-    }    #Lasstname {
+    }   
+     #Lasstname {
         margin-left: 5px;
     }
-    
+    .color{
+        margin-left: 30px;
+        width: 320px;
+        height: 400px;
+
+    }
+    .color h2{
+        margin-left: -70px;
+        margin-top: -100px;
+    }
+    .color p{
+        margin-left: -70px;
+
+    }
+    .iconss i {
+        margin-left: -70px;
+        font-size: 18px;
+
+    }
     #email {
         margin-left: 5px;
     
@@ -957,7 +973,7 @@ h4 {
     }
     .box {
         border-bottom: 1px solid;
-        width: 270px;
+        width: 220px;
         background-color: transparent;
         height: 50px;
         padding: 15px;
@@ -973,25 +989,25 @@ h4 {
         height: 5px;
         font-size: 22px;
         padding: 22px;
-        width: 270px;
+        width: 220px;
     
     
     
     }
     .postcomment {
-        width: 200px;
-        height: 70px;
-        margin-top: -900px;
-        margin-left: 750px;
+        width: 150px;
+        height: 50px;
+        margin-top: -60px;
+        margin-left: 115px;
         background-color: #27ae60;
-        font-size: 22px;
+        font-size: 16px;
         text-align: center;
     }
     .map {
         display: flex;
         justify-content: center;
-        margin-top: -1100px;
+        margin-top: 50px;
         width: 90%;
-        margin-left: 20px;
+        margin-left: 32px;
     }
 }
