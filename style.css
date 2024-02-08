@@ -473,7 +473,7 @@ label {
 
 /* product page started */
 #product {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     margin-top: 200px;
 }
@@ -615,7 +615,7 @@ h4 {
 /* FAQs start  */
 .FAQs {
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     text-align: center;
     background-color: #e1f4f8;
     padding-top: -50px;
@@ -916,9 +916,9 @@ h4 {
 @media(max-width:600px) {
     .contactform {
         width: 90%;
-        height: 300vh;
+        height: 200vh;
         padding-top: 50px;
-        margin-left: 8px;
+        margin-left: 5px;
     }
     .contactinfo {
         display: flex;
@@ -1011,3 +1011,193 @@ h4 {
         margin-left: 32px;
     }
 }
+ /* footer :start */
+.footer{
+    height: 40vh;
+    width: 100%;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    
+}
+.gridfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 100px;
+    padding: 50px;
+}
+.plantext .logos img{
+    background-color: green;
+    
+}
+
+.gridlogo{
+    display: flex;
+    gap: 20px;
+}
+.gridlogo h6{
+    font-size: 30px;
+}
+.plantext p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.mail{
+    height: 80px;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: left;
+    background-color: #b7eece;
+    margin-top: 30px;
+
+}
+.Subscribe{
+    background-color: #27ae60;
+    color: whitesmoke;
+    border-radius: 10px;
+    height: 60px;
+    width: 130px;
+    margin-left: -140px;
+    margin-top: 40px;
+    
+}
+.flex{
+    display: flex;
+}
+
+.ouraddress p {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.ouraddress h5{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+
+
+}
+.contactus p{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.contactus i{
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.card p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card{
+    width: 90%;
+}
+.card img{
+    height: 60px;
+    padding: 12px;
+    margin-left: -10px;
+}
+@media(max-width:600px){
+    .gridfooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        height: 100vh;
+        width: 65%;
+        margin-top: 100px;
+        background-color: rgb(255, 255, 255);
+        margin-left: -20px;
+        
+}
+.plantext .logos img{
+    background-color: green;
+    
+    
+}
+.plantext{
+    margin-left: -100px;
+}
+
+.gridlogo{
+    display: flex;
+    gap: 20px;
+    
+}
+.gridlogo h6{
+    font-size: 20px;
+}
+.plantext p{
+    font-size: 22px;
+    margin-top: 30px;
+}
+.mail{
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: left;
+    background-color: #b7eece;
+    margin-top: 30px;
+
+}
+.Subscribe{
+    background-color: #27ae60;
+    color: whitesmoke;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 40px;
+    
+}
+.flex{
+    display: flex;
+}
+
+.ouraddress p {
+    font-size: 28px;
+    font-weight: bold;
+    width: 70%;
+    margin-left: -100px;
+    margin-top: 50px;
+
+}
+.ouraddress h5{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-left: -100px;
+
+
+}
+.contactus p{
+    font-size: 30px;
+    margin-left: -100px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.contactus i{
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.card p{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: -5px;
+    font-weight: bold;
+    width: 50%;
+}
+.card{
+    width: 90%;
+    margin-left: -90px;
+}
+.card img{
+    height: 60px;
+    padding: 12px;
+
+}
+} 
